@@ -716,7 +716,7 @@ body.menu-page .arrow { font-size: 17px; }
 /* LinkedIn en Stichting Praktijkleren: menu en tekstvak 40 px lager. */
 body[data-page="linked"] .tab-page,
 body[data-page="spl"] .tab-page {
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 body[data-page="linked"] .tab-menu,
@@ -729,6 +729,10 @@ body[data-page="spl"] .tab-content-area {
   height: 100%;
   max-height: none;
 }
+
+/* Dagtaken: het stappenmenu en tekstvlak iets lager onder de banner. */
+body[data-page="dagtaken"] .banner { height: calc(25% + 40px); }
+body[data-page="dagtaken"] .tab-page { height: calc(75% - 40px); }
 
 /* Storingzoeken: vult hetzelfde popupvenster als de andere lespagina's. */
 body[data-page="storingzoeken"] .page-shell {
